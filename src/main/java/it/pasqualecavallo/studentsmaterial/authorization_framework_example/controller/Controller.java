@@ -23,7 +23,7 @@ public class Controller {
 	}
 
 	@ZeroSecurity
-	@GetMapping("/all-authenticated")
+	@GetMapping("/zero-security")
 	public String allAuthenticated() {
 		return "allAuthenticated";
 	}
